@@ -21,7 +21,7 @@ Two continuous actions are available, corresponding to movement toward (or away 
  
 In order to solve this environment we must get an average score of +0.5 over 100 consecutive episodes. 
 
-### Distributed Training
+### Training Environment
 
 We were provided with an Udacity version of the Unity Tennis environment.
 
