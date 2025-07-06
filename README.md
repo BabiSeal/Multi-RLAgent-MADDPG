@@ -48,8 +48,8 @@ We would strongly recommend using the ML-Agent v0.4 interface as attempts to dow
 - `model.py` : The neural networks for the Actor and Critic.
 - `buffer.py`: Implementation of the ReplayBuffer to store experiences (s, a, r, s', done). Agents sample batches of these experiences to learn from.
 - `OUNoise.py`: Implementation of the [Ornstein–Uhlenbeck process](https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process). Added to continuous action result to facilitate exploration (in addition to exploitation).
-- `actor_agent_{0,1}.pth`:  The trained checkpoints for the Actor model. Load the checkpoints to avoid training the model from scratch. 
-- `critic_agent_{0,1}.pth`: The trained checkpoints for the Critic model. Load the checkpoints to avoid training the model from scratch.
+- `actor_agent_{0,1}.pth`:  The trained checkpoints for the Actor model corresponding to each agent. Load the checkpoints to avoid training the model from scratch. 
+- `critic_agent_{0,1}.pth`: The trained checkpoints for the Critic model corresponding to each agent. Load the checkpoints to avoid training the model from scratch.
 
 #### Training Multiple Agents
 
