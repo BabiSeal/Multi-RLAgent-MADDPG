@@ -45,7 +45,8 @@ We would strongly recommend using the ML-Agent v0.4 interface as attempts to dow
 - `Tennis.ipynb` : The main Jupyter notebook to execute the training invoking the MADDPG trainer.
 -  `maddpg.py`: The multi-agent training orchestrator implementation of the Actor Critic Reinforcement Learning as as outlined in the paper [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://arxiv.org/abs/1706.02275)
 - `ddpg.py`: The individual agent implementation of the Actor Critic Reinforcement Learning as as outlined in the paper - essentially an adaptation of actor-critic methods that considers action policies of other agents.
-- `model.py` : The neural networks for the Actor and Critic. 
+- `model.py` : The neural networks for the Actor and Critic.
+- `buffer.py`: Implementation of the ReplayBuffer to store experiences (s, a, r, s`, done). Agents sample batches of these experiences to learn from. 
 - `actor_agent_{0,1}.pth`:  The trained checkpoints for the Actor model. Load the checkpoints to avoid training the model from scratch. 
 - `critic_agent_{0,1}.pth`: The trained checkpoints for the Critic model. Load the checkpoints to avoid training the model from scratch.
 
