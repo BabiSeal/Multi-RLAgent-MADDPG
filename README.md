@@ -2,7 +2,7 @@
 
 ### Background
 
-Train two agents Multi-Agent to control rackets to bounce a tennis ball over a net using Deep Deterministic Policy Gradient Reinforcement Learning.
+Train two agents to control rackets to bounce a tennis ball over a net using Multi-Agent Deep Deterministic Policy Gradient Reinforcement Learning.
 
 ![Tennis Environment](https://video.udacity-data.com/topher/2018/May/5af7955a_tennis/tennis.png)
 
