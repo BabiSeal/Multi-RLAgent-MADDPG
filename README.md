@@ -10,7 +10,7 @@ Train two agents to control rackets to bounce a tennis ball over a net using Mul
 
 #### State Space
 
-The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. **Each agent receives its own, local observation**.  The observation vector for each agent corresponds to a vector of size 24 potentially corresponding to 3 frames to express temporal and spatial directional aspects. 
+The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. **Each agent receives its own, local observation**.  The observation vector for each agent corresponds to a vector of size 24 potentially corresponding to 3 stacked observations to express temporal and spatial directional aspects. 
 
 #### Continuous Action Space
 Two continuous actions for each agent, corresponding to movement toward (or away from) the net, and jumping.
